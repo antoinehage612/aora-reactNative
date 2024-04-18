@@ -5,10 +5,7 @@ import { SafeAreaView } from "react-native-safe-area-context";
 
 import useAppwrite from "../../lib/useAppwrite";
 import { searchPosts } from "../../lib/appwrite";
-
-import SearchInput from "../../components/SearchInput";
-import VideoCard from "../../components/VideoCard";
-import EmptyState from "../../components/EmptyState";
+import { EmptyState, SearchInput, VideoCard } from "../../components";
 
 const Search = () => {
   const { query } = useLocalSearchParams();
